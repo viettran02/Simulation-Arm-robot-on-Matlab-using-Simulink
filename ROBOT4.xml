@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="11/23/23||11:33:56" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Test1" uid="Test1" version="251">
+<AssemblyFile name="Test1.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="lk2-1" uid="lk2-1" grounded="true" entityUid="lk2*:*Default">
+<Transform>
+<Rotation>-0.82513144529061855 -0.038616844705817818 -0.56361940819810463 -0.027759453463533749 0.99922733703927491 -0.027823401244370112 0.56425837232248566 -0.0073121965486481911 -0.82556587928863268</Rotation>
+<Translation>0.06112773908868567 0.062928957541559402 0.41948951440129523</Translation>
+</Transform>
+</Instance>
+<Instance name="Lk1-1" uid="Lk1-1" entityUid="Lk1*:*Default">
+<Transform>
+<Rotation>-0.69318749568659155 -0.03861684470581709 -0.71972205407971113 -0.021517369566895001 0.99922733703927491 -0.032889690182805409 0.72043604756471857 -0.0073121965486488217 -0.69348282830287922</Rotation>
+<Translation>0.059196896853393778 0.1128903243935229 0.41912390457386128</Translation>
+</Transform>
+</Instance>
+<Instance name="lk4-1" uid="lk4-1" entityUid="lk4*:*Default">
+<Transform>
+<Rotation>0.64818915397405541 -0.038616844705817055 0.76049954633475314 0.019479806669142622 0.99922733703927502 0.034135993401863199 -0.7612301608597305 -0.0073121965486459819 0.64844057089227769</Rotation>
+<Translation>0.30818282849822265 0.19987483168753187 0.66129059348105257</Translation>
+</Transform>
+</Instance>
+<Instance name="lk3-1" uid="lk3-1" entityUid="lk3*:*Default">
+<Transform>
+<Rotation>0.71972205407971113 -0.038616844705817437 -0.69318749568659133 0.032889690182805686 0.99922733703927491 -0.021517369566895195 0.693482828302879 -0.0073121965486488711 0.72043604756471857</Rotation>
+<Translation>0.053383846217343073 0.2633054904016463 0.41802318883383005</Translation>
+</Transform>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>lk2-1</Uid>
+</InstancePath>
+<Position>0 0.05000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>Lk1-1</Uid>
+</InstancePath>
+<Position>0 0.050000000000000017 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>lk3-1</Uid>
+</InstancePath>
+<Position>0.34999999999999992 0 -1.1102230246251565e-16</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>lk4-1</Uid>
+</InstancePath>
+<Position>0 0.074999999999999983 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lk3-1</Uid>
+</InstancePath>
+<Position>0.34999999999999992 -0.049999999999999961 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lk4-1</Uid>
+</InstancePath>
+<Position>0 0.025000000000000022 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident4">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lk2-1</Uid>
+</InstancePath>
+<Position>0 0.05000000000000001 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lk1-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident10">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lk1-1</Uid>
+</InstancePath>
+<Position>-0.032500000000000057 0.52000000000000002 0.032500000000000029</Position>
+<Axis>-1.0000000000000002 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lk3-1</Uid>
+</InstancePath>
+<Position>-0.032500000000000029 0.050000000000000044 -0.032500000000000001</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident11">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lk1-1</Uid>
+</InstancePath>
+<Position>-0.032500000000000084 0.51999999999999991 -0.032499999999999973</Position>
+<Axis>0 0 -1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lk3-1</Uid>
+</InstancePath>
+<Position>0.032499999999999973 0.050000000000000044 0.032499999999999973</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Distance name="LimitDistance2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>lk3-1</Uid>
+</InstancePath>
+<Position>0.34999999999999992 0.050000000000000044 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>Lk1-1</Uid>
+</InstancePath>
+<Position>0 0.52000000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Distance>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+</Assemblies>
+<Parts>
+<Part name="Lk1" uid="Lk1*:*Default" version="162">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="Lk1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>3.0883793239752437</Mass>
+<CenterOfMass>0 0.25175722719192872 0</CenterOfMass>
+<Inertia>0.10086386961443482 0.0046995499773473349 0.10086386961443482 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="Lk1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Diffuse r="0.89803921568627454" g="0.89803921568627454" b="0.89803921568627454" a="1"/>
+<Specular r="0.62862745098039219" g="0.62862745098039219" b="0.62862745098039219" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lk2" uid="lk2*:*Default" version="146">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lk2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>6.2257964775166625</Mass>
+<CenterOfMass>0.066496923389476381 0.048423097016113185 0</CenterOfMass>
+<Inertia>0.031034578038840476 0.078271705882459477 0.057582492888461775 0 0 -0.0006528320187709427</Inertia>
+</MassProperties>
+<GeometryFile name="lk2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lk3" uid="lk3*:*Default" version="182">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lk3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>4.1284225010326603</Mass>
+<CenterOfMass>0.14597097448846966 0.00046038494241962892 0.00082684325790265687</CenterOfMass>
+<Inertia>0.0083186707550734883 0.076545171730413628 0.075105455069964855 1.5715508463421093e-06 -2.7367826061407626e-05 -0.00038779053303799639</Inertia>
+</MassProperties>
+<GeometryFile name="lk3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0" g="1" b="1" a="1"/>
+<Diffuse r="0" g="1" b="1" a="1"/>
+<Specular r="0" g="0.5" b="0.5" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="lk4" uid="lk4*:*Default" version="154">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="lk4.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.3434480910356883</Mass>
+<CenterOfMass>0.099035170008274082 0.0013069770099504118 0</CenterOfMass>
+<Inertia>0.0013583551747753195 0.0097854086995549754 0.0095815044161100347 0 0 0.00059056050587995474</Inertia>
+</MassProperties>
+<GeometryFile name="lk4_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.61960784313725492" g="0.41176470588235292" b="0.20000000000000001" a="1"/>
+<Diffuse r="0.61960784313725492" g="0.41176470588235292" b="0.20000000000000001" a="1"/>
+<Specular r="0.49568627450980396" g="0.32941176470588235" b="0.16000000000000003" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>

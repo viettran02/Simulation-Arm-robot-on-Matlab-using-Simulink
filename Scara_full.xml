@@ -1,0 +1,1440 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<SimscapeMultibodyImportXML version="2.0" xmlns="urn:mathworks:SimscapeMultibody:import" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<Created by="" on="12/23/23||09:31:01" using="Simscape Multibody Link Version 7.4" from="SolidWorks 28.0.0"/>
+<ModelUnits mass="kilogram" length="millimeter"/>
+<DataUnits mass="kilogram" length="meter"/>
+<RootAssembly name="Scara_full" uid="Scara_full" version="178">
+<AssemblyFile name="Scara_full.SLDASM" type="SolidWorks Assembly"/>
+<InstanceTree>
+<Instance name="ThanXoay_Full-1" uid="ThanXoay_Full-1" entityUid="ThanXoay_Full" rigid="true">
+<Transform>
+<Rotation>0.95635135160661011 -0.29221925378080449 0 -0.29221925378080449 -0.95635135160661011 1.1102230246253461e-16 0 -1.2645311300516145e-16 -0.99999999999999989</Rotation>
+<Translation>0.02821306285436128 0.96841805305031903 0.42438282269919847</Translation>
+</Transform>
+<Instance name="TX_TrucVit-1" uid="TX_TrucVit-1" entityUid="TX_TrucVit*:*Default">
+<Transform>
+<Rotation>0.97928104098078528 -0.20250590800169121 0 0.20250590800169121 0.97928104098078528 0 0 0 0.99999999999999978</Rotation>
+<Translation>0.04473984455460514 0.043532210197052001 -0.40099253617899971</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_Puly1-2" uid="TX_Puly1-2" entityUid="TX_Puly1*:*Default">
+<Transform>
+<Rotation>0 -0.11513965616546415 -0.99334931397675952 0 0.99334931397675952 -0.11513965616546415 1 0 0</Rotation>
+<Translation>0.044739844554605168 0.04353221019705189 0.13000746382100026</Translation>
+</Transform>
+</Instance>
+<Instance name="angular contact ball bearing_68_iso-2" uid="angular contact ball bearing_68_iso-2" entityUid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 2012 - 10,SI,NC,10_68">
+<Transform>
+<Rotation>0 0.82961273890250964 0.55833923688979314 0 0.55833923688979326 -0.82961273890250953 -0.99999999999999978 0 0</Rotation>
+<Translation>0.044739844554605168 0.04353221019705189 0.10100746382100023</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_NapTren-1" uid="TX_NapTren-1" entityUid="TX_NapTren*:*Default">
+<Transform>
+<Rotation>1 0 1.1657341758564144e-15 -1.1102230246251565e-15 0 0.99999999999999989 0 -0.99999999999999978 0</Rotation>
+<Translation>0.044739844552327546 0.089133977918220308 -0.39899253617899949</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_TrucDoDuoi-1" uid="TX_TrucDoDuoi-1" entityUid="TX_TrucDoDuoi*:*Default">
+<Transform>
+<Rotation>0.46614973064142129 0.88470584299129085 0 0.88470584299129085 -0.46614973064142129 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.015629661029216035 0.13886084911634844 -0.035992536178999723</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_Truc-2" uid="TX_Truc-2" entityUid="TX_Truc*:*Default">
+<Transform>
+<Rotation>-0.35242003948906925 0.935841928835486 0 -0.935841928835486 -0.35242003948906925 0 0 0 1</Rotation>
+<Translation>-0.010260155447672337 0.089133977918220419 -0.41899253617899951</Translation>
+</Transform>
+</Instance>
+<Instance name="angular contact ball bearing_68_iso-5" uid="angular contact ball bearing_68_iso-5" entityUid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 2012 - 10,SI,NC,10_68">
+<Transform>
+<Rotation>0 -0.99624989442480016 0.086522528040820099 0 -0.086522528040820099 -0.99624989442480016 1 0 0</Rotation>
+<Translation>0.044739844552327546 0.043533977918220224 -0.4049925361789995</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_Motor-1" uid="TX_Motor-1" entityUid="TX_Motor*:*Default">
+<Transform>
+<Rotation>0 0 1 1 0 0 0 1 0</Rotation>
+<Translation>0.044739844552327546 0.10738397791822074 0.024007463821000274</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_Puly1-1" uid="TX_Puly1-1" entityUid="TX_Puly1*:*Default">
+<Transform>
+<Rotation>0 -0.36867395983898149 -0.92955877239507834 0 0.92955877239507834 -0.36867395983898149 1 0 0</Rotation>
+<Translation>0.044739844552327546 0.10738397791822074 0.13000746382100026</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_DeXoay-1" uid="TX_DeXoay-1" grounded="true" entityUid="TX_DeXoay*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.044739844552327546 0.089133977918220975 0.16700746382100023</Translation>
+</Transform>
+</Instance>
+<Instance name="TX_Truc-1" uid="TX_Truc-1" entityUid="TX_Truc*:*Default">
+<Transform>
+<Rotation>-0.35242003948906925 0.935841928835486 0 -0.935841928835486 -0.35242003948906925 0 0 0 1</Rotation>
+<Translation>0.099739844552327622 0.089133977918220308 -0.41899253617899951</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="DeTru_Full-1" uid="DeTru_Full-1" grounded="true" entityUid="DeTru_Full" rigid="true">
+<Transform>
+<Rotation>0.96196698868297625 0 -0.27316572384581261 -0.27316572384581278 -1.2038680639850874e-16 -0.96196698868297625 0 0.99999999999999989 -1.1303408372920113e-16</Rotation>
+<Translation>-0.020501264625583344 1.073797321914101 0.033133529960355283</Translation>
+</Transform>
+<Instance name="angular contact ball bearing_68_iso-1" uid="angular contact ball bearing_68_iso-1" entityUid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 1055 - 18,SI,NC,18_68">
+<Transform>
+<Rotation>0 -1 -1.6653345369377343e-16 1 0 0 0 -1.6653345369377343e-16 1</Rotation>
+<Translation>0.11860814087440871 0.20124182891784287 0.17806934798028196</Translation>
+</Transform>
+</Instance>
+<Instance name="DT_NapDuoi-1" uid="DT_NapDuoi-1" entityUid="DT_NapDuoi*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.11860814087440874 0.1062418289178429 0.17806934798028196</Translation>
+</Transform>
+</Instance>
+<Instance name="DT_Than-1" uid="DT_Than-1" grounded="true" entityUid="DT_Than*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.16202907090017143 0.11024182891784287 0.199316747323525</Translation>
+</Transform>
+</Instance>
+<Instance name="DT_TrucQuay-1" uid="DT_TrucQuay-1" entityUid="DT_TrucQuay*:*Default">
+<Transform>
+<Rotation>-0.96196698868297648 0 -0.27316572384581167 0 1 0 0.27316572384581167 0 -0.96196698868297648</Rotation>
+<Translation>0.11860814087440877 0.21524182891784288 0.17806934798028207</Translation>
+</Transform>
+</Instance>
+<Instance name="DT_Puly1-1" uid="DT_Puly1-1" entityUid="DT_Puly1*:*Default">
+<Transform>
+<Rotation>0.96196698868297648 0 0.27316572384581156 0 1 0 -0.27316572384581156 0 0.96196698868297648</Rotation>
+<Translation>0.1186081408744088 0.12274182891784288 0.17806934798028207</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="CT2_Full-1" uid="CT2_Full-1" entityUid="CT2_Full" rigid="true">
+<Transform>
+<Rotation>0.97700716092350259 -0.21320649029567001 0 -0.21320649029567001 -0.97700716092350259 -5.9388723173696342e-16 0 6.0142524518277223e-16 -1</Rotation>
+<Translation>0.19847080309154119 1.3365390874572556 0.63765213887860606</Translation>
+</Transform>
+<Instance name="CT2_NapTren-1" uid="CT2_NapTren-1" entityUid="CT2_NapTren*:*Default">
+<Transform>
+<Rotation>-1 -1.1680792036647677e-16 0 0 0 -1 1.1680792036647677e-16 -1 0</Rotation>
+<Translation>-0.023223037231163007 0.08244009689340448 0.21327760269006124</Translation>
+</Transform>
+</Instance>
+<Instance name="CT2_ThanGiua-1" uid="CT2_ThanGiua-1" entityUid="CT2_ThanGiua*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>-0.023583657297793187 -0.026921490930426728 0.17503760269006136</Translation>
+</Transform>
+</Instance>
+<Instance name="CT2_NapDuoi-1" uid="CT2_NapDuoi-1" entityUid="CT2_NapDuoi*:*Default">
+<Transform>
+<Rotation>1 0 0 0 0 -1 0 1 0</Rotation>
+<Translation>-0.023944277364423366 0.082440096893404258 0.13679760269006125</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="TD_Full-1" uid="TD_Full-1" entityUid="TD_Full" rigid="true">
+<Transform>
+<Rotation>0.27316572384581267 0 0.96196698868297625 0.96196698868297592 0 -0.2731657238458125 1.6653345369377348e-16 1 0</Rotation>
+<Translation>-0.16734477578652379 0.6803456490636538 0.17215986583608159</Translation>
+</Transform>
+<Instance name="TD_DeMotor-1" uid="TD_DeMotor-1" grounded="true" entityUid="TD_DeMotor*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.079530786962281663 0.09621549304211649 0.14988924010099516</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Truc1-1" uid="TD_Truc1-1" entityUid="TD_Truc1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03728632130890408 0.091215493042116486 0.20533644559172604</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Truc1-2" uid="TD_Truc1-2" entityUid="TD_Truc1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.12328632130890405 0.091215493042116486 0.093902367219819649</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Motor-1" uid="TD_Motor-1" entityUid="TD_Motor*:*Default">
+<Transform>
+<Rotation>0.0013328355839566373 0 -0.9999991117742586 0 -1 0 -0.9999991117742586 0 -0.0013328355839566373</Rotation>
+<Translation>0.079530786962281885 0.19421549304211647 0.20038924010099515</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Puly1-1" uid="TD_Puly1-1" entityUid="TD_Puly1*:*Default">
+<Transform>
+<Rotation>0 0.99863051667183766 -0.052317216781271957 -1 0 2.1233187117843188e-16 2.1346110025054491e-16 0.052317216781271957 0.99863051667183766</Rotation>
+<Translation>0.079530786962281663 0.089215493042116484 0.20038924010099504</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Truc1-3" uid="TD_Truc1-3" entityUid="TD_Truc1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.12328632130890405 0.091215493042116486 0.20533644559172604</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Nap1-1" uid="TD_Nap1-1" entityUid="TD_Nap1*:*Default">
+<Transform>
+<Rotation>1 4.0716680074964949e-16 2.2204460492503131e-16 4.0716680074964954e-16 -1 0 2.2204460492503131e-16 0 -1</Rotation>
+<Translation>0.078786321308904061 0.70621549304211639 0.14961940640577281</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_Truc1-4" uid="TD_Truc1-4" entityUid="TD_Truc1*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.03728632130890408 0.091215493042116486 0.093902367219819649</Translation>
+</Transform>
+</Instance>
+<Instance name="TD_HopDai-1" uid="TD_HopDai-1" entityUid="TD_HopDai*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.080286321308904118 0.10121549304211649 0.14961940640577287</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HopSo_Full-1" uid="HopSo_Full-1" entityUid="HopSo_Full" rigid="true">
+<Transform>
+<Rotation>-0.2731657238458125 0 0.96196698868297614 -0.96196698868297614 1.5182598657714084e-16 -0.2731657238458125 -1.6653345369377348e-16 -1 0</Rotation>
+<Translation>-0.29102784531837994 0.90901536887546763 0.4336974290002456</Translation>
+</Transform>
+<Instance name="HS_Than-1" uid="HS_Than-1" grounded="true" entityUid="HS_Than" rigid="true">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.041135038439712668 0.085075399682486952 0.18188505597697008</Translation>
+</Transform>
+<Instance name="angular contact ball bearing_68_iso-1" uid="angular contact ball bearing_68_iso-1" entityUid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 0210 - 8,SI,NC,8_68">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.065520921152214862 0.1257466704395605 0.10244794360666523</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_Khung-1" uid="HS_Khung-1" grounded="true" entityUid="HS_Khung*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.065520921152214862 0.10774667043956054 0.14944794360666525</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_Truc1-1" uid="HS_Truc1-1" entityUid="HS_Truc1*:*Default">
+<Transform>
+<Rotation>0.98119437652466124 0 -0.19302226678904472 0 1 0 0.19302226678904472 0 0.98119437652466124</Rotation>
+<Translation>0.065520921152214862 0.091246670439560529 0.1024479436066652</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_PuLy1-1" uid="HS_PuLy1-1" entityUid="HS_PuLy1*:*Default">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.065520921152214862 0.13224667043956051 0.10244794360666523</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_PuLy2-1" uid="HS_PuLy2-1" entityUid="HS_PuLy2*:*Default">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.065520921152214862 0.090246670439560528 0.10244794360666523</Translation>
+</Transform>
+</Instance>
+</Instance>
+<Instance name="HS_Than-2" uid="HS_Than-2" entityUid="HS_Than" rigid="true">
+<Transform>
+<Rotation>-0.99999999999999989 0 0 0 1 0 0 0 -0.99999999999999989</Rotation>
+<Translation>0.17217688074414239 0.13007539968248694 0.48078094319030051</Translation>
+</Transform>
+<Instance name="angular contact ball bearing_68_iso-1" uid="angular contact ball bearing_68_iso-1" entityUid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 0210 - 8,SI,NC,8_68">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.065520921152214862 0.1257466704395605 0.10244794360666526</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_Khung-1" uid="HS_Khung-1" grounded="true" entityUid="HS_Khung*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.065520921152214751 0.10774667043956049 0.14944794360666522</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_Truc1-1" uid="HS_Truc1-1" entityUid="HS_Truc1*:*Default">
+<Transform>
+<Rotation>0.98119437652466124 0 -0.19302226678904472 0 1 0 0.19302226678904472 0 0.98119437652466124</Rotation>
+<Translation>0.065520921152214751 0.091246670439560473 0.10244794360666518</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_PuLy1-1" uid="HS_PuLy1-1" entityUid="HS_PuLy1*:*Default">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.065520921152214862 0.13224667043956051 0.10244794360666526</Translation>
+</Transform>
+</Instance>
+<Instance name="HS_PuLy2-1" uid="HS_PuLy2-1" entityUid="HS_PuLy2*:*Default">
+<Transform>
+<Rotation>0 -0.99999999999999989 0 1 0 0 0 0 0.99999999999999989</Rotation>
+<Translation>0.065520921152214862 0.0902466704395605 0.10244794360666526</Translation>
+</Transform>
+</Instance>
+</Instance>
+</Instance>
+<Instance name="CT1_Full-1" uid="CT1_Full-1" entityUid="CT1_Full" rigid="true">
+<Transform>
+<Rotation>-0.95635135160661111 -0.2922192537808006 1.43725499841657e-16 0.2922192537808006 -0.95635135160661111 5.1973213231446196e-16 0 5.3904588552532339e-16 0.99999999999999989</Rotation>
+<Translation>0.25619944759441937 1.2065200480792169 0.15219627024342711</Translation>
+</Transform>
+<Instance name="CT1_TrucDo2-1" uid="CT1_TrucDo2-1" entityUid="CT1_TrucDo2*:*Default">
+<Transform>
+<Rotation>-0.99420305865692882 0 0.10751873398253661 0.10751873398253661 0 0.99420305865692882 0 1 0</Rotation>
+<Translation>0.10371725533066989 0.053215153905261214 0.44165826594511748</Translation>
+</Transform>
+</Instance>
+<Instance name="angular contact ball bearing_68_iso-1" uid="angular contact ball bearing_68_iso-1" entityUid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 8322 - 10,SI,NC,10_68">
+<Transform>
+<Rotation>0 0.52997709183819808 0.84801195871681323 0 0.84801195871681323 -0.52997709183819808 -1 0 0</Rotation>
+<Translation>0.10371725533066992 0.053215153905261214 0.40794706168041539</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_Motor-1" uid="CT1_Motor-1" entityUid="CT1_Motor*:*Default">
+<Transform>
+<Rotation>0.76070032869531157 1.2643000427651216e-16 0.64910323518131141 -0.64910323518131141 0 0.76070032869531157 1.1822291291733931e-16 -0.99999999999999989 0</Rotation>
+<Translation>0.10635090661122795 0.2612346931606272 0.56165826594511725</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_BacTruot-2" uid="CT1_BacTruot-2" entityUid="CT1_BacTruot*:*Default">
+<Transform>
+<Rotation>0 0.99068286460738098 -0.13618906627667815 0 -0.13618906627667815 -0.99068286460738098 -0.99999999999999978 0 0</Rotation>
+<Translation>0.15871725533067008 0.38346515390526059 0.43915826594511753</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_Truc1-1" uid="CT1_Truc1-1" entityUid="CT1_Truc1*:*Default">
+<Transform>
+<Rotation>0.89987314326295575 0 0.43615172363989108 0.43615172363989108 0 -0.89987314326295575 0 0.99999999999999978 0</Rotation>
+<Translation>0.10371725533066986 0.20246451452294112 0.35565826594511762</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_BacTruot-4" uid="CT1_BacTruot-4" entityUid="CT1_BacTruot*:*Default">
+<Transform>
+<Rotation>0 0.99068286460738098 -0.13618906627667815 0 -0.13618906627667815 -0.99068286460738098 -0.99999999999999978 0 0</Rotation>
+<Translation>0.048717255330669978 0.3834651539052607 0.43915826594511753</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_PuLy2-1" uid="CT1_PuLy2-1" entityUid="CT1_PuLy2*:*Default">
+<Transform>
+<Rotation>-0.89987314326295564 0 0.43615172363989119 -0.43615172363989119 0 -0.89987314326295564 0 -0.99999999999999978 0</Rotation>
+<Translation>0.10371725533066986 0.20246451452294112 0.4556582659451176</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_PuLy3-1" uid="CT1_PuLy3-1" entityUid="CT1_PuLy3*:*Default">
+<Transform>
+<Rotation>0 -0.9701464790044606 -0.24251970904495129 1.2246467991473675e-16 -0.24251970904495129 0.9701464790044606 -1 0 1.1880867802169018e-16</Rotation>
+<Translation>0.10371725533066992 0.053215153905261214 0.37765826594511753</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_Truc2-1" uid="CT1_Truc2-1" entityUid="CT1_Truc2*:*Default">
+<Transform>
+<Rotation>0.53709182685604628 0 -0.84352378124415361 0.84352378124415373 1.2246467991473604e-16 0.53709182685604617 1.0330186987053302e-16 -0.99999999999999978 0</Rotation>
+<Translation>0.10371725533066994 0.053215153905261436 0.4686582659451175</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_TrucDo1-1" uid="CT1_TrucDo1-1" entityUid="CT1_TrucDo1*:*Default">
+<Transform>
+<Rotation>0.081599988338004137 0 -0.99666516037395303 -0.99666516037395303 -1.2246467991473584e-16 -0.081599988338004137 -1.2205627984736482e-16 0.99999999999999978 0</Rotation>
+<Translation>0.10371725533066978 0.053215153905261436 0.35865826594511752</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_BacTruot-3" uid="CT1_BacTruot-3" entityUid="CT1_BacTruot*:*Default">
+<Transform>
+<Rotation>0 0.99068286460738098 -0.13618906627667815 0 -0.13618906627667815 -0.99068286460738098 -0.99999999999999978 0 0</Rotation>
+<Translation>0.048717255330669978 0.3834651539052607 0.38515826594511759</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_BacTruot-1" uid="CT1_BacTruot-1" entityUid="CT1_BacTruot*:*Default">
+<Transform>
+<Rotation>0 0.99068286460738098 -0.13618906627667815 0 -0.13618906627667815 -0.99068286460738098 -0.99999999999999978 0 0</Rotation>
+<Translation>0.15871725533067002 0.38346515390526081 0.38515826594511759</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_ThanGiua-1" uid="CT1_ThanGiua-1" grounded="true" entityUid="CT1_ThanGiua*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10371725533066981 -0.0067848460947386169 0.35565826594511751</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_DAVM-1" uid="CT1_DAVM-1" entityUid="CT1_DAVM*:*Default">
+<Transform>
+<Rotation>0 0.15364451004070989 0.98812618856821632 0 0.98812618856821632 -0.15364451004070989 -0.99999999999999978 0 0</Rotation>
+<Translation>0.10371725533294748 0.33786338618409217 0.43138294758894902</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_NapDuoi-1" uid="CT1_NapDuoi-1" entityUid="CT1_NapDuoi*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10371725533066997 -0.0067848460947386169 0.4686582659451175</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_PuLy1-1" uid="CT1_PuLy1-1" entityUid="CT1_PuLy1*:*Default">
+<Transform>
+<Rotation>0 0.29367838632056825 0.95590428674012495 0 -0.95590428674012495 0.29367838632056825 1 0 0</Rotation>
+<Translation>0.10371725533066997 0.20246451452294112 0.35865826594511752</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_PuLy1-2" uid="CT1_PuLy1-2" entityUid="CT1_PuLy1*:*Default">
+<Transform>
+<Rotation>1.2643000427651238e-16 -0.90290699385003126 -0.42983596924489664 0 -0.42983596924489664 0.90290699385003126 -1 0 -1.288643246516778e-16</Rotation>
+<Translation>0.10635090661122801 0.26123469316062742 0.46565826594511761</Translation>
+</Transform>
+</Instance>
+<Instance name="CT1_NapTren-1" uid="CT1_NapTren-1" entityUid="CT1_NapTren*:*Default">
+<Transform>
+<Rotation>1 0 0 0 1 0 0 0 1</Rotation>
+<Translation>0.10371725533067011 -0.0067848460947388389 0.35315826594511757</Translation>
+</Transform>
+</Instance>
+</Instance>
+</InstanceTree>
+<Constraints>
+<Concentric name="Concentric1">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_BacTruot-4</Uid>
+</InstancePath>
+<Position>0.029499999999999971 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ThanXoay_Full-1</Uid>
+<Uid>TX_Truc-1</Uid>
+</InstancePath>
+<Position>0 0 0.57999999999999985</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric2">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_BacTruot-2</Uid>
+</InstancePath>
+<Position>0.029499999999999971 0 0</Position>
+<Axis>0.99999999999999989 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ThanXoay_Full-1</Uid>
+<Uid>TX_Truc-2</Uid>
+</InstancePath>
+<Position>0 0 0.57999999999999985</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Distance name="LimitDistance1">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_NapTren-1</Uid>
+</InstancePath>
+<Position>0 0 0</Position>
+<Axis>0 0 -0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ThanXoay_Full-1</Uid>
+<Uid>TX_TrucDoDuoi-1</Uid>
+</InstancePath>
+<Position>0 0 0.004500000000000004</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Distance>
+<Concentric name="Concentric3">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_TrucDo1-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 -0.014999999999999958 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT2_Full-1</Uid>
+<Uid>CT2_NapDuoi-1</Uid>
+</InstancePath>
+<Position>0.00035274863578541038 -0.056568542494923713 -0.076855677027229508</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric4">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_TrucDo1-1</Uid>
+</InstancePath>
+<Position>-0.024143355215569873 -0.0030000000000000027 -0.00035274863578513282</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT2_Full-1</Uid>
+<Uid>CT2_NapDuoi-1</Uid>
+</InstancePath>
+<Position>0 0.0030000000000000027 -0.10099903224279938</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Concentric name="Concentric5">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_TrucDo1-1</Uid>
+</InstancePath>
+<Position>0.024143355215570317 -0.0030000000000000027 0.0003527486357852716</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>CT2_Full-1</Uid>
+<Uid>CT2_NapDuoi-1</Uid>
+</InstancePath>
+<Position>0.00070549727157057096 0.0030000000000000027 -0.052712321811659191</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CT1_Full-1</Uid>
+<Uid>CT1_TrucDo1-1</Uid>
+</InstancePath>
+<Position>2.2204460492503131e-16 -0.010000000000000009 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>CT2_Full-1</Uid>
+<Uid>CT2_NapDuoi-1</Uid>
+</InstancePath>
+<Position>0.00036062006663015178 1.1102230246251565e-16 -0.076138412176169012</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Concentric name="Concentric6">
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>ThanXoay_Full-1</Uid>
+<Uid>TX_DeXoay-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="cylinder">
+<InstancePath>
+<Uid>DeTru_Full-1</Uid>
+<Uid>DT_TrucQuay-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999983 0</Position>
+<Axis>0 -0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Concentric>
+<Coincident name="Coincident3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>ThanXoay_Full-1</Uid>
+<Uid>TX_DeXoay-1</Uid>
+</InstancePath>
+<Position>0 0 -0.0030000000000000027</Position>
+<Axis>0 0 0.99999999999999989</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DeTru_Full-1</Uid>
+<Uid>DT_TrucQuay-1</Uid>
+</InstancePath>
+<Position>0 0.011999999999999983 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel2">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DeTru_Full-1</Uid>
+<Uid>DT_Than-1</Uid>
+</InstancePath>
+<Position>0.056579069974237312 0.10000000000000001 0.077752600656757154</Position>
+<Axis>1.0000000000000002 0 -1.1102230246251565e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-2</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000155 0.022499999999999964 -0.097499999999999989</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident6">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DeTru_Full-1</Uid>
+<Uid>DT_Than-1</Uid>
+</InstancePath>
+<Position>-0.14342093002576267 0.099999999999999978 0.18975260065675692</Position>
+<Axis>1.6653345369377348e-16 0 1.0000000000000002</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-2</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0.022499999999999992 0.097500000000000031</Position>
+<Axis>-1 0 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident7">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DeTru_Full-1</Uid>
+<Uid>DT_Than-1</Uid>
+</InstancePath>
+<Position>-0.14342093002576273 0.10000000000000001 0.077752600656757043</Position>
+<Axis>-1.0000000000000002 0 -1.6653345369377348e-16</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-2</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>-0.050000000000000044 0.022499999999999992 0.097500000000000031</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident8">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>DeTru_Full-1</Uid>
+<Uid>DT_Than-1</Uid>
+</InstancePath>
+<Position>0 0.029999999999999999 0</Position>
+<Axis>0 0.99999999999999989 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-2</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>0 0.022499999999999992 0</Position>
+<Axis>0 1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Parallel name="Parallel3">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-1</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999933 0.022499999999999992 0.097500000000000003</Position>
+<Axis>0 0 1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TD_Full-1</Uid>
+<Uid>TD_DeMotor-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999822 0.0050000000000000044 0.097499999999999948</Position>
+<Axis>2.2204460492503128e-16 0 1</Axis>
+</ConstraintGeometry>
+</Parallel>
+<Coincident name="Coincident14">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-1</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>0.049999999999999933 0.022499999999999992 0.097499999999999962</Position>
+<Axis>1 0 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TD_Full-1</Uid>
+<Uid>TD_DeMotor-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999933 0.0050000000000000044 -0.097500000000000003</Position>
+<Axis>-0.99999999999999989 0 -1.1102230246251564e-16</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident12">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-1</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999933 0.022499999999999992 -0.097500000000000031</Position>
+<Axis>0 0 -1</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TD_Full-1</Uid>
+<Uid>TD_DeMotor-1</Uid>
+</InstancePath>
+<Position>-0.049999999999999933 0.0050000000000000044 -0.097500000000000003</Position>
+<Axis>-2.2204460492503128e-16 0 -1</Axis>
+</ConstraintGeometry>
+</Coincident>
+<Coincident name="Coincident13">
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>HopSo_Full-1</Uid>
+<Uid>HS_Than-1</Uid>
+<Uid>HS_Khung-1</Uid>
+</InstancePath>
+<Position>0 -0.02250000000000002 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+<ConstraintGeometry geomType="plane">
+<InstancePath>
+<Uid>TD_Full-1</Uid>
+<Uid>TD_DeMotor-1</Uid>
+</InstancePath>
+<Position>0 -0.0050000000000000044 0</Position>
+<Axis>0 -1 0</Axis>
+</ConstraintGeometry>
+</Coincident>
+</Constraints>
+</RootAssembly>
+<Assemblies>
+<Assembly name="ThanXoay_Full" uid="ThanXoay_Full" version="212">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="ThanXoay_Full.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="DeTru_Full" uid="DeTru_Full" version="174">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="DeTru_Full.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="CT2_Full" uid="CT2_Full" version="141">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="CT2_Full.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="TD_Full" uid="TD_Full" version="157">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="TD_Full.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="HopSo_Full" uid="HopSo_Full" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="HopSo_Full.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="HS_Than" uid="HS_Than" version="133">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="HS_Than.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+<Assembly name="CT1_Full" uid="CT1_Full" version="231">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<AssemblyFile name="CT1_Full.SLDASM" type="SolidWorks Assembly"/>
+</Assembly>
+</Assemblies>
+<Parts>
+<Part name="CT1_BacTruot" uid="CT1_BacTruot*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_BacTruot.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.044107031206774644</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.2244007758204904e-05 1.8555032370062859e-05 1.8555032370062862e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_BacTruot_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Specular r="0.3784313725490196" g="0.38431372549019605" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_DAVM" uid="CT1_DAVM*:*Default" version="106">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_DAVM.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0061583046740100681</Mass>
+<CenterOfMass>0.011000000000000034 0 0</CenterOfMass>
+<Inertia>4.6787036594219124e-07 4.7415781387531481e-07 4.7415781387531481e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_DAVM_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Diffuse r="0.75686274509803919" g="0.76862745098039209" b="0.75294117647058822" a="1"/>
+<Specular r="0.3784313725490196" g="0.38431372549019605" b="0.37647058823529411" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_Motor" uid="CT1_Motor*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_Motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26889951369251802</Mass>
+<CenterOfMass>1.3438138564430121e-05 0.04710345493821113 1.7463793198953343e-06</CenterOfMass>
+<Inertia>0.00026129577866826912 0.00012393265675483744 0.00026133316902328125 1.4573841453915583e-09 1.3214496379514255e-08 1.1214362117270362e-08</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_NapDuoi" uid="CT1_NapDuoi*:*Default" version="202">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_NapDuoi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.10077776609933974</Mass>
+<CenterOfMass>4.131458926786663e-05 0.25241924874587141 0.0012499999999999998</CenterOfMass>
+<Inertia>0.0019683078542072486 0.00011250792942427284 0.0020807108067918351 0 0 -1.7132848718727411e-06</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_NapDuoi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_NapTren" uid="CT1_NapTren*:*Default" version="250">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_NapTren.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.1016879349538323</Mass>
+<CenterOfMass>0.00017880624261087046 0.26590167121328689 0.00125</CenterOfMass>
+<Inertia>0.0016423699512254782 0.00011293931910782226 0.0017552033454010566 0 0 -1.8459577610561212e-06</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_NapTren_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_PuLy1" uid="CT1_PuLy1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_PuLy1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.01171336041069931</Mass>
+<CenterOfMass>0.0094999988793624899 -3.6926131867384822e-05 5.6534206198102556e-05</CenterOfMass>
+<Inertia>1.5334220531614693e-06 1.1438673263119233e-06 1.1415063802107971e-06 2.6925191268330772e-09 -3.3731130273531849e-14 5.0134965856787098e-14</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_PuLy1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_PuLy2" uid="CT1_PuLy2*:*Default" version="125">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_PuLy2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.064307421492867722</Mass>
+<CenterOfMass>0 0 0</CenterOfMass>
+<Inertia>1.9461617938630772e-05 3.4541000331039727e-05 1.9461617938630331e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_PuLy2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_PuLy3" uid="CT1_PuLy3*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_PuLy3.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.048917820293174638</Mass>
+<CenterOfMass>0.0094999997272642543 -3.5876832587098799e-05 5.8996184094908252e-05</CenterOfMass>
+<Inertia>4.58102677916543e-05 2.4376656913866469e-05 2.4335866197094168e-05 3.9362573361597842e-08 -1.5033033472529028e-13 1.4526362711458041e-13</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_PuLy3_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_ThanGiua" uid="CT1_ThanGiua*:*Default" version="773">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_ThanGiua.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.91893887460689727</Mass>
+<CenterOfMass>-0.0014508298196513954 0.26605818304487128 0.057635980369393505</CenterOfMass>
+<Inertia>0.018120597239709258 0.0024214601345425254 0.018691845011448285 0.0001975564107598773 3.7298996913979614e-06 3.4713163902609121e-05</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_ThanGiua_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_Truc1" uid="CT1_Truc1*:*Default" version="123">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_Truc1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0086247190316551779</Mass>
+<CenterOfMass>0 0.054907084749878564 0</CenterOfMass>
+<Inertia>8.7213312750583206e-06 1.0767054837942155e-07 8.7213312750583206e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_Truc1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_Truc2" uid="CT1_Truc2*:*Default" version="112">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_Truc2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020234998281771849</Mass>
+<CenterOfMass>0 0.056500000000000009 0</CenterOfMass>
+<Inertia>2.2467593092194009e-05 1.8717373410638951e-06 2.2467593092194009e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_Truc2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_TrucDo1" uid="CT1_TrucDo1*:*Default" version="140">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_TrucDo1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.045779288148110456</Mass>
+<CenterOfMass>0 -0.0030929522371671691 0</CenterOfMass>
+<Inertia>1.2516464341373274e-05 2.1706777328324377e-05 1.2516464341373273e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_TrucDo1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT1_TrucDo2" uid="CT1_TrucDo2*:*Default" version="120">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT1_TrucDo2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.031696313680230299</Mass>
+<CenterOfMass>0 0.013236724731768819 0</CenterOfMass>
+<Inertia>6.9234710251964787e-06 1.0039176585313022e-05 6.9234710251964753e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT1_TrucDo2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT2_NapDuoi" uid="CT2_NapDuoi*:*Default" version="108">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT2_NapDuoi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.036455765278183061</Mass>
+<CenterOfMass>-2.3908399305780626e-05 0.0014999999999999957 0.012228769784814596</CenterOfMass>
+<Inertia>0.00012105380856235475 0.00013428380920184861 1.328468428741115e-05 0 -6.4598027802929661e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT2_NapDuoi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT2_NapTren" uid="CT2_NapTren*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT2_NapTren.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.040225676462490811</Mass>
+<CenterOfMass>1.1391530841140645e-05 0.0014999999999999996 0.0038798622730228504</CenterOfMass>
+<Inertia>0.00014854788715628465 0.00016215253619547419 1.3664987553883274e-05 0 5.0043496746258605e-08 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT2_NapTren_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="CT2_ThanGiua" uid="CT2_ThanGiua*:*Default" version="262">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="CT2_ThanGiua.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17456287635110537</Mass>
+<CenterOfMass>0 0.1155674811183862 0</CenterOfMass>
+<Inertia>0.00089188474548567093 0.00018299002173541477 0.00093035327743810306 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="CT2_ThanGiua_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DT_NapDuoi" uid="DT_NapDuoi*:*Default" version="111">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DT_NapDuoi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.21764955929770569</Mass>
+<CenterOfMass>0 0.002 0.062742327823054625</CenterOfMass>
+<Inertia>0.0018187078298805958 0.0025463915709155807 0.0007282641398597792 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DT_NapDuoi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DT_Puly1" uid="DT_Puly1*:*Default" version="170">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DT_Puly1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.36871315809137051</Mass>
+<CenterOfMass>3.008542430907019e-08 -0.0013734178878895826 1.1489159952848866e-06</CenterOfMass>
+<Inertia>0.00092432916860634806 0.0018220799440612531 0.00092436689977294705 -5.8180789687824915e-10 9.8870332609074862e-10 -1.5235175751879942e-11</Inertia>
+</MassProperties>
+<GeometryFile name="DT_Puly1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DT_Than" uid="DT_Than*:*Default" version="257">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DT_Than.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>1.3469768296372546</Mass>
+<CenterOfMass>-0.043415018498274907 0.056367179132571457 -0.0054433627335680372</CenterOfMass>
+<Inertia>0.010974015347096572 0.01497802348078669 0.0067297698243595026 0.0010214882085249793 8.1345368454110036e-07 1.6574512075813911e-07</Inertia>
+</MassProperties>
+<GeometryFile name="DT_Than_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Diffuse r="0.50196078431372548" g="0.50196078431372548" b="0.50196078431372548" a="1"/>
+<Specular r="0.25098039215686274" g="0.25098039215686274" b="0.25098039215686274" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="DT_TrucQuay" uid="DT_TrucQuay*:*Default" version="174">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="DT_TrucQuay.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.29314237099390267</Mass>
+<CenterOfMass>0 -0.019767871358572019 0</CenterOfMass>
+<Inertia>0.00040836448502814713 0.0003220649805649966 0.00040836448502814702 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="DT_TrucQuay_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.82745098039215681" g="0.83921568627450982" b="0.82745098039215681" a="1"/>
+<Diffuse r="0.82745098039215681" g="0.83921568627450982" b="0.82745098039215681" a="1"/>
+<Specular r="0.5792156862745097" g="0.58745098039215682" b="0.5792156862745097" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HS_Khung" uid="HS_Khung*:*Default" version="300">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HS_Khung.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.22697354944399223</Mass>
+<CenterOfMass>-7.0543941165697403e-08 0.0031828894222945309 -0.0087701887874443024</CenterOfMass>
+<Inertia>0.0010015555061008733 0.0012900078243998859 0.00036156997181828921 1.9503510844033151e-05 5.3952156148467374e-10 7.8618561253344586e-11</Inertia>
+</MassProperties>
+<GeometryFile name="HS_Khung_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HS_PuLy1" uid="HS_PuLy1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HS_PuLy1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011713360410699312</Mass>
+<CenterOfMass>0.0094999988793624916 -3.6926131867384876e-05 5.6534206198102414e-05</CenterOfMass>
+<Inertia>1.5334220531614693e-06 1.1438673263119233e-06 1.1415063802107971e-06 2.6925191268330883e-09 -3.3731130273342118e-14 5.0134965856728684e-14</Inertia>
+</MassProperties>
+<GeometryFile name="HS_PuLy1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HS_PuLy2" uid="HS_PuLy2*:*Default" version="114">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HS_PuLy2.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0773669411603813</Mass>
+<CenterOfMass>0.0094999998240457833 -3.5589860669060415e-05 6.0094501539609415e-05</CenterOfMass>
+<Inertia>5.3378801972443467e-05 2.9031198998352526e-05 2.8977838703704662e-05 5.1902337481795214e-08 -1.4699867109317038e-13 1.5244536809899245e-13</Inertia>
+</MassProperties>
+<GeometryFile name="HS_PuLy2_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="HS_Truc1" uid="HS_Truc1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="HS_Truc1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.004697728214667937</Mass>
+<CenterOfMass>0 0.029907434239857329 0</CenterOfMass>
+<Inertia>1.4300692724736805e-06 5.8583163167081039e-08 1.4300692724736805e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="HS_Truc1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TD_DeMotor" uid="TD_DeMotor*:*Default" version="144">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TD_DeMotor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.17179552175451163</Mass>
+<CenterOfMass>-1.3263663007608807e-05 -0.00020052473056325734 -0.005207176242522221</CenterOfMass>
+<Inertia>0.00053802651269750775 0.00068451375767697431 0.00014925367123606978 1.7515099148133149e-06 1.1250415886968451e-08 4.5692325230423781e-10</Inertia>
+</MassProperties>
+<GeometryFile name="TD_DeMotor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TD_HopDai" uid="TD_HopDai*:*Default" version="118">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TD_HopDai.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.99580660425329093</Mass>
+<CenterOfMass>0 0.29250000000000009 0</CenterOfMass>
+<Inertia>0.032463557514078166 0.0057193059351674314 0.030054067611186289 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TD_HopDai_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TD_Motor" uid="TD_Motor*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TD_Motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26889951369251808</Mass>
+<CenterOfMass>1.3438138564430113e-05 0.04710345493821113 1.7463793198952812e-06</CenterOfMass>
+<Inertia>0.00026129577866826912 0.00012393265675483749 0.00026133316902328131 1.4573841453934792e-09 1.3214496379515424e-08 1.1214362117269961e-08</Inertia>
+</MassProperties>
+<GeometryFile name="TD_Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TD_Nap1" uid="TD_Nap1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TD_Nap1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.60212903996167078</Mass>
+<CenterOfMass>0.044863753425327058 0.0098204699781271176 0</CenterOfMass>
+<Inertia>0.0013743543169875863 0.0034780974855031189 0.002144278690995035 0 0 1.2269697065469417e-05</Inertia>
+</MassProperties>
+<GeometryFile name="TD_Nap1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TD_Puly1" uid="TD_Puly1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TD_Puly1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011713360410699309</Mass>
+<CenterOfMass>0.0094999988793624899 -3.6926131867384672e-05 5.6534206198102149e-05</CenterOfMass>
+<Inertia>1.5334220531614691e-06 1.1438673263119231e-06 1.1415063802107971e-06 2.6925191268330813e-09 -3.3731130273453196e-14 5.0134965856493964e-14</Inertia>
+</MassProperties>
+<GeometryFile name="TD_Puly1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TD_Truc1" uid="TD_Truc1*:*Default" version="105">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TD_Truc1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.030159289474462014</Mass>
+<CenterOfMass>0 0.29999999999999999 0</CenterOfMass>
+<Inertia>0.00090489932139175828 2.4127431579569605e-07 0.00090489932139175828 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TD_Truc1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_DeXoay" uid="TX_DeXoay*:*Default" version="297">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_DeXoay.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.68308955486884315</Mass>
+<CenterOfMass>0.00013496098213558168 0.00041237233597128876 -0.027402013873961319</CenterOfMass>
+<Inertia>0.001568583144288452 0.001618904546192895 0.0028722639034523831 -2.2379751730368648e-05 -2.5298669205005849e-07 1.7109184036339035e-06</Inertia>
+</MassProperties>
+<GeometryFile name="TX_DeXoay_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_Motor" uid="TX_Motor*:*Default" version="126">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_Motor.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.26889951369251802</Mass>
+<CenterOfMass>1.3438138564429691e-05 0.04710345493821113 1.7463793198945449e-06</CenterOfMass>
+<Inertia>0.00026129577866826912 0.00012393265675483749 0.00026133316902328131 1.4573841453930389e-09 1.3214496379514645e-08 1.1214362117271429e-08</Inertia>
+</MassProperties>
+<GeometryFile name="TX_Motor_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_NapTren" uid="TX_NapTren*:*Default" version="186">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_NapTren.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.60371085207171149</Mass>
+<CenterOfMass>0 0.015399605307877417 0.00051160465717663833</CenterOfMass>
+<Inertia>0.0010800573451578161 0.0019727347794608807 0.00099084371857738004 3.0576048016132914e-06 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TX_NapTren_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_Puly1" uid="TX_Puly1*:*Default" version="115">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_Puly1.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.011713360410699312</Mass>
+<CenterOfMass>0.0094999988793624916 -3.6926131867384788e-05 5.6534206198102556e-05</CenterOfMass>
+<Inertia>1.5334220531614691e-06 1.1438673263119233e-06 1.1415063802107969e-06 2.6925191268330912e-09 -3.3731130273577729e-14 5.0134965857036593e-14</Inertia>
+</MassProperties>
+<GeometryFile name="TX_Puly1_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Diffuse r="0.66666666666666663" g="0.69803921568627447" b="0.76862745098039209" a="1"/>
+<Specular r="0.33333333333333331" g="0.34901960784313724" b="0.38431372549019605" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_Truc" uid="TX_Truc*:*Default" version="134">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_Truc.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.16809091493032186</Mass>
+<CenterOfMass>0 0 0.28999999999999998</CenterOfMass>
+<Inertia>0.0047214041545500431 0.0047214041545500431 1.85110120067017e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="TX_Truc_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.69019607843137254" g="0.61176470588235299" b="0.52941176470588236" a="1"/>
+<Diffuse r="0.69019607843137254" g="0.61176470588235299" b="0.52941176470588236" a="1"/>
+<Specular r="0.55215686274509801" g="0.48941176470588243" b="0.42352941176470593" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_TrucDoDuoi" uid="TX_TrucDoDuoi*:*Default" version="187">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_TrucDoDuoi.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0079860870780098289</Mass>
+<CenterOfMass>5.9231275706178238e-09 -3.9853405051168453e-08 -0.076947173792474108</CenterOfMass>
+<Inertia>1.6961634488040137e-05 1.6961639270728088e-05 6.2605288548870107e-08 -7.0181771761235995e-11 -1.1657771281607615e-10 1.5735748964302784e-12</Inertia>
+</MassProperties>
+<GeometryFile name="TX_TrucDoDuoi_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="TX_TrucVit" uid="TX_TrucVit*:*Default" version="292">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="TX_TrucVit.SLDPRT" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.084179226306283453</Mass>
+<CenterOfMass>-2.3282379730576997e-07 -1.0597334263419174e-08 0.26058336167689178</CenterOfMass>
+<Inertia>0.0019962337835075596 0.0019962337602142687 2.1073911454234702e-06 2.1437497732709395e-09 7.7171351514603822e-09 -6.2743041518172647e-10</Inertia>
+</MassProperties>
+<GeometryFile name="TX_TrucVit_Default_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Diffuse r="0.792156862745098" g="0.81960784313725488" b="0.93333333333333335" a="1"/>
+<Specular r="0.396078431372549" g="0.40980392156862744" b="0.46666666666666667" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.40000000596046448</Shininess>
+</VisualProperties>
+</Part>
+<Part name="angular contact ball bearing_68_iso" uid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 0210 - 8,SI,NC,8_68" version="2930">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="angular contact ball bearing_68_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0044032519506475264</Mass>
+<CenterOfMass>6.1170374334330554e-05 0 0</CenterOfMass>
+<Inertia>5.6945217275420687e-07 3.0731327846689255e-07 3.073132784668925e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="angular contact ball bearing_68_iso_ISO 15 ABB - 0210 - 8-SI-NC-8_68_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="angular contact ball bearing_68_iso" uid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 1055 - 18,SI,NC,18_68" version="3150">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="angular contact ball bearing_68_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.053296748043871266</Mass>
+<CenterOfMass>6.495173965108972e-05 0 0</CenterOfMass>
+<Inertia>7.5007429726880526e-05 3.858566116290723e-05 3.8585661162907237e-05 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="angular contact ball bearing_68_iso_ISO 15 ABB - 1055 - 18-SI-NC-18_68_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="angular contact ball bearing_68_iso" uid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 2012 - 10,SI,NC,10_68" version="2876">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="angular contact ball bearing_68_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.0035358248039687188</Mass>
+<CenterOfMass>6.3885843985527586e-05 0 0</CenterOfMass>
+<Inertia>4.2628918407413819e-07 2.356406542709592e-07 2.3564065427095936e-07 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="angular contact ball bearing_68_iso_ISO 15 ABB - 2012 - 10-SI-NC-10_68_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+<Part name="angular contact ball bearing_68_iso" uid="angular contact ball bearing_68_iso*:*ISO 15 ABB - 8322 - 10,SI,NC,10_68" version="2852">
+<ModelUnits mass="kilogram" length="millimeter"/>
+<PartFile name="angular contact ball bearing_68_iso.sldprt" type="SolidWorks Part"/>
+<MassProperties>
+<Mass>0.020364431718676013</Mass>
+<CenterOfMass>5.0144821580656453e-05 0 0</CenterOfMass>
+<Inertia>9.3012778179551877e-06 4.8271319340126902e-06 4.8271319340126936e-06 0 0 0</Inertia>
+</MassProperties>
+<GeometryFile name="angular contact ball bearing_68_iso_ISO 15 ABB - 8322 - 10-SI-NC-10_68_sldprt.STEP" type="STEP"/>
+<VisualProperties>
+<Ambient r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Diffuse r="0.77647058823529413" g="0.75686274509803919" b="0.73725490196078436" a="1"/>
+<Specular r="0.38823529411764707" g="0.3784313725490196" b="0.36862745098039218" a="1"/>
+<Emissive r="0" g="0" b="0" a="1"/>
+<Shininess>0.3125</Shininess>
+</VisualProperties>
+</Part>
+</Parts>
+</SimscapeMultibodyImportXML>
